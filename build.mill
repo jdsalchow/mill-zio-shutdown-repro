@@ -1,0 +1,10 @@
+//| mill-jvm-version: system
+package build
+import mill._, mill.scalalib._
+
+object repro extends ScalaModule {
+  def scalaVersion = "3.8.4"
+  object test extends ScalaTests with TestModule.ZioTest {
+    def zioTestVersion = "2.1.26"
+  }
+}

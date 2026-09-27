@@ -1,0 +1,11 @@
+compiling 1 Scala source to out/repro-1790510083834520000/mill-build/compile.dest/classes ...
+done compiling
+compiling 1 Scala source to out/repro-1790510083834520000/repro/test/compile.dest/classes ...
+done compiling
+Running Test Class repro.ReproSpec
+[32m+[0m passes
+1 tests passed. 0 tests failed. 0 tests ignored.
+
+Executed in 80 ms
+
+Completed tests
